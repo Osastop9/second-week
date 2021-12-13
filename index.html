@@ -18,9 +18,32 @@
     id="DD" required size="1" maxlength="2"><input type="text" placeholder="YYYY" id="YYYY" required size="2" maxlength="4">
     <div><label for="Hour">Pick a time</label><input type="text" placeholder="09" id="Hour" required size="1" maxlength="2"><input type="text" placeholder="00" id="Minute" required size="1" maxlength="2">
     <select name="am-pm" id="am-pm"><option value="AM">AM</option> <option value="PM">PM</option></select></div>
-    
-    <button id="reservation-button">MAKE RESERVATION</button>
+    <div class="people-reserve">
+    <div class="input-box">
+        <button type="button" onclick="minus()" style="font-size: 20px;" id="btttn-">-</button>
+        <p id="counter">0</p>
+        <h3>Person(s)</h3>
+        <button type="button" onclick="plus()" id="btttn">+</button>
+      </div>
+    </div>
+
+    <button type="submit" id="reservation-button">MAKE RESERVATION</button>
     </form>
     </div>
     </body>
+    <script>
+         var counter = 0;
+
+function plus() {
+  counter += 1;
+  document.getElementById("counter").innerHTML = counter;
+}
+
+function minus() {
+  if(counter > 0){
+    counter -= 1;
+  }
+  document.getElementById("counter").innerHTML = counter;
+}
+    </script>
     </html>

@@ -58,3 +58,42 @@ b body {
     padding: 0px 0px 25px 0px;
     
     }
+    .people-reserve{
+        display: flex;
+        margin-left: 30px;
+        margin-top: 10px;
+        width: 350px;
+        
+      
+      }
+      
+      .input-box{
+        height: 40px;
+        width: 335px; 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 15px;
+        font-weight: bold;
+      }
+      
+      h3{
+        font-size: 15px;
+        margin-left: -100px;
+      }
+      #btttn {
+        background: transparent;
+        border: 0;
+        cursor: pointer;
+        font-size: 15px;
+        padding: 5px 10px;
+        border-bottom: black;
+      }
+      #btttn- {
+        background: transparent;
+        border: 0;
+        cursor: pointer;
+        font-size: 15px;
+        padding: 5px 10px;
+        border-bottom: black;
+      }
