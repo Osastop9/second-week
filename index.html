@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+    <div class="Container">
+    <form>
+    
+    <div><label for="Name"></label>
+    <input type="text" placeholder="Name" id="Name" required size="50"></div>
+    <div><label for="email"></label><input type="email" placeholder="Email" id="email" required size="50"></div>
+    <label for="MM"> Pick a date </label><input type="text" placeholder="MM" id="MM" required size="1" maxlength="2"><input type="text" placeholder="DD"
+    id="DD" required size="1" maxlength="2"><input type="text" placeholder="YYYY" id="YYYY" required size="2" maxlength="4">
+    <div><label for="Hour">Pick a time</label><input type="text" placeholder="09" id="Hour" required size="1" maxlength="2"><input type="text" placeholder="00" id="Minute" required size="1" maxlength="2">
+    <select name="am-pm" id="am-pm"><option value="AM">AM</option> <option value="PM">PM</option></select></div>
+    
+    <button id="reservation-button">MAKE RESERVATION</button>
+    </form>
+    </div>
+    </body>
+    </html>

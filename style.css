@@ -1,0 +1,60 @@
+b body {
+    background-color: #eee;
+    }
+    input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #eee;
+    outline: none;
+    padding: 5%;
+    }
+    
+    form {
+    background-color: #eee;
+    margin: 50px;
+    box-shadow: black;
+    background-size: contain;
+    width: 12cm;
+    height: fit-content;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;}
+    #reservation-button {
+    background-color: black;
+    color: white;
+    margin-left: 0.8cm;
+    margin-top: 1cm;
+    padding: 10px 120px 10px 120px;
+    }
+    #MM {
+    margin: 0cm 0.2cm 0cm 1cm;
+    }
+    #DD {
+    margin: 0cm 0.3cm 0cm 0.4cm;
+    }
+    #YYYY {
+    margin: 0cm 0cm 0cm 0.4cm;
+    }
+    #Hour {
+    margin: 0cm 0.2cm 0cm 1cm;
+    }
+    #Minute {
+    margin: 0cm 0.3cm 0cm 0.5cm;
+    }
+    #am-pm {
+    margin: 0cm 0cm 0cm 0.4cm;
+    }
+    select {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: black;
+    border-bottom-style: groove
+    border-style: ;
+    outline: none;
+    background-color: #eee;
+    padding: 0px 0px 25px 0px;
+    
+    }
