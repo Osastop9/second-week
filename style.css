@@ -1,5 +1,5 @@
-b body {
-    background-color: #eee;
+body {
+    background-color: black;
     }
     input {
     border-top-style: hidden;
@@ -96,4 +96,8 @@ b body {
         font-size: 15px;
         padding: 5px 10px;
         border-bottom: black;
+      }
+      .Container{
+        background-color: black;
+        padding-left: 8cm;
       }
